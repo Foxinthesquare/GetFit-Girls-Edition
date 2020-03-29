@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+/**************************************************/
+
+body {
+    background: #4f3961;
+    margin: 0 auto;
+    font-family: 'Russo One', sans-serif;
+}
+
+#main {
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+}
+
+#head {
+    background: #ea728c;
+    width: 100%;
+    height: 50px;
+    z-index: 100;
+    position: relative;
+    border-top: solid #f3d4d4;
+    color: #fc9d9d;
+    text-shadow: 0.5px 0.5px 1px black;
+}
+
+#head_title {
+    position: absolute;
+    top: 20%;
+    left: 12%;
+}
+
+#head_title a {
+    text-decoration: none;
+}
+
+#head_title h1 {
+    color: #f3d4d4;
+    font-size: 24px;
+    margin: 0;
+    text-shadow: 0.5px 0.5px 1px black;
+}
+
+#head_title h1:hover {
+    color: #4f3961;
+}
+
+#work_out {
+    position: absolute;
+    margin: 0 auto;
+    top: 35%;
+    left: 42%;
+}
+
+#work_out a {
+    color: #f3d4d4;
+    text-decoration: none;
+}
+
+#work_out a:hover {
+    color: #4f3961;
+}
+
+#nutrition {
+    position: absolute;
+    margin: 0 auto;
+    top: 35%;
+    left: 53%;
+}
+
+#nutrition a {
+    color: #f3d4d4;
+    text-decoration: none;
+}
+
+#nutrition a:hover {
+    color: #4f3961;
+}
+
+#body {
+    margin: 0 auto;
+    clear: both;
+    width: 1100px;
+    height: 500px;
+    margin-top: 50px;
+    /*background: red;*/
+    position: relative;
+}
+
+#body h2 {
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#body p {
+    color: #fff;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+}
+
+#body p span {
+    color: #f3d4d4;
+    font-weight: normal;
+    font-size: 17px;
+    text-align: center;
+}
+
+#name {
+    margin: 0 auto;
+    height: 50px;
+    background: #ea728c;
+    text-align: center;
+    border-left: solid #f3d4d4;
+    border-right: solid #f3d4d4;
+    color: #f3d4d4;
+}
+
+#name h1 {
+    margin: 0 auto;
+    padding: 5px;
+    text-shadow: 0.5px 0.5px 1px black;
+}
+
+#info {
+    clear: both;
+    margin-top: 120px;
+    text-align: center;
+}
+
+#my_info {
+    margin: 40px auto;
+    color: #f3d4d4;
+}
+
+#adrs a {
+    color: #f3d4d4;
+    font-size: 15px;
+}
+
+#adrs a:hover {
+    color: #ea728c;
+}
+
+/*** WORKOUT_STYLE ****/
+
+.week_hw {
+    margin: 0 auto;
+    width: 145px;
+    height: 90px;
+    background: #fc9d9d;
+    position: absolute;
+}
+
+.week_hw h3 {
+    color: #4f3961;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.week_hw h5 {
+    color: #4f3961;
+    text-align: center;
+    font-weight: normal;
+    font-size: 15px;
+    margin-top: 10px;
+    /* text-shadow: 0.5px 0.5px 1px black; */
+}
+
+#day1 {
+    /*position: absolute;*/
+    left: 1.3%;
+    background: #ea728c;
+    transition: 0.3s;
+    /* text-shadow: 0.5px 0.5px 1px black; */
+}
+
+#day1 h3 {
+    text-shadow: 0.5px 0.5px 1px black;
+    color: #f3d4d4;
+}
+
+#day1:hover {
+    /* background: #ea728c; */
+    /* color: #ea728c; */
+    opacity: .8;
+}
+
+#day2 {
+    left: 15.3%;
+    transition: 0.3s;
+    /* text-shadow: 0.5px 0.5px 1px black; */
+}
+
+#day2 h3 {
+    text-shadow: 0.5px 0.5px 1px black;
+    color: #f3d4d4;
+}
+
+#day2:hover {
+    opacity: .8;
+}
+
+#day3 {
+    left: 29.3%;
+    background: #ea728c;
+    transition: 0.3s;
+    /* text-shadow: 0.5px 0.5px 1px black; */
+}
+
+#day3 h3 {
+    text-shadow: 0.5px 0.5px 1px black;
+    color: #f3d4d4;
+}
+
+#day3:hover {
+    opacity: .8;
+}
+
+#day4 {
+    left: 43.3%;
+    /* text-shadow: 0.5px 0.5px 1px black; */
+    transition: 0.3s;
+    background: #fc9d9d;
+}
+
+#day4 h3 {
+    text-shadow: 0.5px 0.5px 1px black;
+    color: #f3d4d4;
+}
+
+#day4:hover {
+    opacity: .8;
+}
+
+#day5 {
+    left: 57.3%;
+    background: #ea728c;
+    transition: 0.3s;
+    /* text-shadow: 0.5px 0.5px 1px black; */
+}
+
+#day5 h3 {
+    text-shadow: 0.5px 0.5px 1px black;
+    color: #f3d4d4;
+}
+
+#day5:hover {
+    opacity: .8;
+}
+
+#day6 {
+    left: 71.3%;
+    transition: 0.3s;
+    /* text-shadow: 0.5px 0.5px 1px black; */
+    background: #fc9d9d;
+}
+
+#day6 h3 {
+    text-shadow: 0.5px 0.5px 1px black;
+    color: #f3d4d4;
+}
+
+#day6:hover {
+    opacity: .8;
+}
+
+#day7 {
+    left: 85.3%;
+    transition: 0.3s;
+    /* text-shadow: 0.5px 0.5px 1px black; */
+    background: #ea728c;
+}
+
+#day7 h3 {
+    text-shadow: 0.5px 0.5px 1px black;
+    color: #f3d4d4;
+}
+
+#day7:hover {
+    opacity: .8;
+}
+
+ul li {
+    color: #f3d4d4;
+    padding: 10px;
+}
+
+img {
+    margin: 5px 0 10px 0;
+}
+
+/*** NUTRITION_STYLE ****/
+
+#body span h3 {
+    color: #fff;
+    border-left: solid #f3d4d4;
+    padding-left: 10px;
+}
+
+#body span p {
+    text-align: left;
+    font-size: 14px;
+    color: #f3d4d4;
+}
+
+#body h4 {
+    color: #f3d4d4;
+    text-align: center;
+}
